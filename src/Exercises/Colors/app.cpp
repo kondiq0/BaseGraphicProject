@@ -27,11 +27,9 @@ void SimpleShapeApplication::init() {
             -0.55f, 0.0f, 0.0f, // first
             0.55f, 0.0f, 0.0f,
             0.0f, 0.5f, 0.0f,
-
             -0.4f, 0.0f, 0.0f, // second
             0.4f, 0.0f, 0.0f,
             -0.4f, -0.5f, 0.0f,
-
             0.4f, 0.0f, 0.0f, // third
             0.4f, -0.5f, 0.0f,
             -0.4f, -0.5f, 0.0f,
