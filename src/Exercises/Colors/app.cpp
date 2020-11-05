@@ -24,15 +24,17 @@ void SimpleShapeApplication::init() {
     }
 
     std::vector<GLfloat> vertices = {
-            -0.55f, 0.0f, 0.0f, // first
-            0.55f, 0.0f, 0.0f,
-            0.0f, 0.5f, 0.0f,
-            -0.4f, 0.0f, 0.0f, // second
-            0.4f, 0.0f, 0.0f,
-            -0.4f, -0.5f, 0.0f,
-            0.4f, 0.0f, 0.0f, // third
-            0.4f, -0.5f, 0.0f,
-            -0.4f, -0.5f, 0.0f,
+            -0.55f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0,// first
+            0.55f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0,
+            0.0f, 0.5f, 0.0f, 0.0f, 0.0f, 0.0f,
+
+            -0.4f, 0.0f, 0.0f, 0.0f, 0.7f, 0.0,// second
+            0.4f, 0.0f, 0.0f, 0.0f, 0.7f, 0.0,
+            -0.4f, -0.5f, 0.0f, 0.0f, 0.7f, 0.0,
+
+            0.4f, 0.0f, 0.0f, 0.0f, 0.7f, 0.0,// third
+            0.4f, -0.5f, 0.0f, 0.0f, 0.7f, 0.0,
+            -0.4f, -0.5f, 0.0f, 0.0f, 0.7f, 0.0,
     };
 
     GLuint v_buffer_handle;
